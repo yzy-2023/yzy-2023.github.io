@@ -1,0 +1,1395 @@
+@media (min-width:1920px) {
+
+    #slider_main.slide img {
+        border-radius: 0 0 2000px 0;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .navMenu {
+        padding: 125px 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navMenu .nav-item {
+        width: 250px;
+        border-bottom: 1px solid #575757;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* team page */
+    .team_page .team_detail_box {
+        margin-top: 75px;
+    }
+
+    /* testimonial page */
+    .testimonial_page .testimonial_text {
+        padding: 0;
+    }
+
+    .testimonial_page .testimonial_heading_box {
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+
+    #slider_main.slide img {
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2 {
+        bottom: 50px;
+        font-size: 120px;
+        font-weight: 700;
+        padding-right: 320px;
+    }
+
+    h3.stylis_heading_style2::after {
+        display: none;
+    }
+
+    h2.stylis_heading_style1 {
+        right: 120px;
+    }
+
+
+    #left_section {
+        margin-top: -192px;
+        padding: 70px 0 0px;
+        min-height: 1090px;
+    }
+
+    #left_section p {
+        padding: 0;
+    }
+
+    #left_section img.grass_icon_bottom {
+        position: absolute;
+        right: 165px;
+        z-index: 7;
+        bottom: 180px;
+        width: 170px;
+        display: none;
+    }
+
+    #right_section {
+        background-image: url('../image/shape_3.png');
+        min-height: 1270px;
+        background-size: 100% 100%;
+        margin-top: -200px;
+        position: relative;
+        z-index: 11;
+        padding: 205px 0 180px 0;
+    }
+
+    #right_section img.grass_icon_bottom {
+        position: absolute;
+        left: 105px;
+        z-index: 7;
+        bottom: 260px;
+        transform: rotateY(180deg);
+        width: 170px;
+        display: none;
+    }
+
+    #right_section.service_part .layout_padding {
+        padding-top: 0;
+    }
+
+    h3.heading_small {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    #left_section.why_choose {
+        z-index: 10;
+        margin-top: -280px;
+        padding-top: 280px;
+    }
+
+    #services {
+        padding-top: 70px;
+        padding-bottom: 500px;
+    }
+
+    #team {
+        padding-top: 0;
+    }
+
+    #right_section p {
+        padding: 0 20px;
+    }
+
+    .plants_blog {
+        text-align: center;
+    }
+
+    .plants_blog img {
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    #right_section.our_team {
+        z-index: 9;
+        margin-top: -300px;
+    }
+
+    #right_section div.team_blog+h4+p {
+        padding: 0 0 !important;
+        font-size: 18px;
+    }
+
+    #left_section.call_back {
+        z-index: 8;
+        margin-top: -270px;
+        min-height: 1210px;
+        padding-top: 140px;
+    }
+
+    .black_bt {
+        margin: 0 10px;
+    }
+
+    #right_section.testimonial {
+        z-index: 7;
+        margin-top: -265px;
+        min-height: 1280px;
+    }
+
+    .about_part img {
+        border-radius: 0 0 0 210px;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #slider_main.slide img {
+        max-height: auto;
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2 {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        bottom: 0;
+        z-index: 14;
+        color: #fff;
+        line-height: normal;
+        right: 0;
+        font-size: 55px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        line-height: 80px;
+        background: #0b8511;
+        text-shadow: 3px 3px 0 #043307;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3);
+    }
+
+    h2.stylis_heading_style1 {
+        font-size: 15vw;
+        color: #fff;
+        letter-spacing: 0;
+        text-align: center;
+        text-shadow: 5px 0 10px rgba(0, 0, 0, .7);
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        right: inherit;
+        left: 0;
+        width: 100%;
+        bottom: 300px;
+        top: inherit;
+    }
+
+    #left_section {
+        background-image: url('../image/shape_2.png');
+        min-height: 1850px;
+        background-size: 100% 100%;
+        margin-top: 0;
+        position: relative;
+        z-index: 12;
+        padding: 295px 0;
+    }
+
+    #top_section::after {
+        display: none;
+    }
+
+    .slider_arrow span {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .slider_arrow {
+        left: 0;
+        top: inherit;
+        height: 70px;
+        bottom: 170px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin: 0 5px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    h3.stylis_heading_style2::after {
+        display: none;
+    }
+
+    #left_section {
+        min-height: 850px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .layout_padding {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    #left_section p {
+        padding: 0;
+    }
+
+    h3.heading_small {
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    #right_section h4 {
+        text-align: center;
+    }
+
+    .plants_blog img {
+        height: 150px;
+        width: auto;
+    }
+
+    .plants_blog {
+        margin-top: 20px;
+    }
+
+    #right_section {
+        background-image: url('../image/shape_3.png');
+        min-height: auto;
+        background-size: 120% 100%;
+        margin-top: -350px;
+        position: relative;
+        z-index: 11;
+        padding: 250px 0;
+        background-position: 90% 0;
+    }
+
+    #right_section p {
+        padding: 0;
+    }
+
+    h3.heading_small {
+        line-height: 50px;
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+
+    .service_part .layout_padding {
+        padding-bottom: 0;
+    }
+
+    #right_section.service_part {
+        padding-bottom: 240px;
+        padding-top: 290px;
+    }
+
+    #right_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    #left_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    #left_section.why_choose {
+        margin-top: -180px;
+        padding-top: 130px;
+    }
+
+    #left_section #services p.small {
+        display: none;
+    }
+
+    h4.large {
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 700;
+        color: #2c2d2c;
+        margin: 5px 0 10px 0;
+        line-height: normal;
+    }
+
+    #left_section.why_choose {
+        margin-top: -180px;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    .top_100 {
+        position: relative;
+        top: 0;
+    }
+
+    #right_section div.team_blog+h4+p {
+        display: none;
+    }
+
+    #left_section.call_back {
+        z-index: 8;
+        margin-top: -240px;
+        min-height: auto;
+        padding-top: 150px;
+        padding-bottom: 170px;
+    }
+
+    .black_bt {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #testimonial_slider {
+        box-shadow: none;
+        min-height: auto;
+    }
+
+    p.testimonial {
+        text-align: left;
+    }
+
+    p.testimonial span.client_name {
+        margin: 55px 0 12px 0;
+    }
+
+    #right_section.testimonial {
+        min-height: auto;
+    }
+
+    .testimonial p.testimonial {
+        padding-bottom: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* testimonial page style */
+    .testimonial_page #testimonial_slider {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container-fluid {
+        padding: 0 30px;
+    }
+
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    .header_info {
+        margin-top: 0;
+    }
+
+    .header_info ul li.cta {
+        margin-left: 20px;
+        float: right;
+    }
+
+    #logo_img {
+        height: 45px;
+    }
+
+    #slider_main.slide img {
+        max-height: auto;
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2 {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        bottom: 0;
+        z-index: 14;
+        color: #fff;
+        line-height: normal;
+        right: 0;
+        font-size: 55px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        line-height: 80px;
+        background: #0b8511;
+        text-shadow: 3px 3px 0 #043307;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3);
+    }
+
+    h2.stylis_heading_style1 {
+        font-size: 20vw;
+        color: #fff;
+        letter-spacing: 0;
+        text-align: center;
+        text-shadow: 5px 0 10px rgba(0, 0, 0, .7);
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        right: inherit;
+        left: 0;
+        width: 100%;
+        bottom: 168px;
+        top: inherit;
+    }
+
+    #left_section {
+        background-image: url('../image/shape_2.png');
+        min-height: 1850px;
+        background-size: 100% 100%;
+        margin-top: 0;
+        position: relative;
+        z-index: 12;
+        padding: 295px 0;
+    }
+
+    #top_section::after {
+        display: none;
+    }
+
+    .slider_arrow span {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .slider_arrow {
+        left: 0;
+        top: inherit;
+        height: 70px;
+        bottom: 170px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin: 0 5px;
+    }
+
+
+    #left_section {
+        background-image: none;
+        min-height: auto;
+        margin-top: 0;
+        position: relative;
+        padding: 65px 0;
+        position: relative;
+    }
+
+    #left_section::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color:
+            #065f0a;
+    }
+
+    #left_section:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #0f9b16;
+    }
+
+    #left_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    #left_section p {
+        padding: 0;
+    }
+
+    .white_text h1,
+    .white_text h2,
+    .white_text h3,
+    .white_text h4,
+    .white_text h5,
+    .white_text h6,
+    .white_text p,
+    .white_text span,
+    .white_text strong {
+        color: #222;
+    }
+
+    h3.heading_small {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 48px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 20px;
+        color: #1a1a1a;
+        font-weight: 300;
+        line-height: normal;
+        margin: 0 0 25px 0;
+    }
+
+    .about_part img {
+        border-radius: 0;
+        margin-top: 45px;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+
+    #left_section .container-fluid {
+        position: relative;
+        z-index: 1;
+    }
+
+    #right_section .container-fluid {
+        position: relative;
+        z-index: 1;
+    }
+
+    #right_section {
+        background-image: none;
+        min-height: auto;
+        margin-top: 0;
+        position: relative;
+        padding: 65px 0;
+        position: relative;
+    }
+
+    #right_section .col-md-8+.col-md-4 {
+        order: -1;
+    }
+
+    #right_section p {
+        padding: 0;
+    }
+
+    #right_section::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #065f0a;
+    }
+
+    #right_section::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #0f9b16;
+    }
+
+    #left_section.why_choose {
+        margin-top: 0;
+    }
+
+    .plants_blog img {
+        width: auto;
+    }
+
+    #right_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 50px;
+    }
+
+    h4.large {
+        font-size: 26px;
+    }
+
+    p.small {
+        font-size: 15px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+
+    #left_section.call_back {
+        margin-top: 0;
+        min-height: auto;
+    }
+
+    #right_section .col-md-6+.col-md-4 {
+        order: -1;
+    }
+
+    #right_section div.team_blog+h4+p {
+        padding: 0 0 !important;
+        font-size: 18px;
+    }
+
+    .top_100 {
+        position: relative;
+        top: 0;
+    }
+
+    .team_blog img {
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    #right_section div.team_blog+h4+p {
+        padding: 0 0 !important;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .banner_section::after {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color:
+            #111;
+        opacity: 0.6;
+        background-image: none;
+        top: 0;
+    }
+
+    .banner_section {
+        margin-bottom: 30px;
+    }
+
+    .slider_arrow {
+        display: none;
+    }
+
+    .plants_blog {
+        text-align: center;
+    }
+
+    .black_bt {
+        margin: 10px 5px;
+    }
+
+    #right_section.testimonial {
+        margin-top: 0;
+        min-height: auto;
+        padding-bottom: 125px;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+
+    #testimonial_slider {
+        background: #fff;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+        min-height: 670px;
+        float: left;
+        padding: 15px;
+        width: 95%;
+        margin: 0 2.5% 0;
+    }
+
+    .plants_blog,
+    .team_blog {
+        margin-top: 0;
+    }
+
+    .img-box {
+        margin-bottom: 10px;
+    }
+
+    p.testimonial span.client_name {
+        margin: 25px 0 5px 0;
+    }
+
+    p.testimonial {
+        color: #0a0909;
+        font-size: 17px;
+        text-align: left;
+        line-height: 28px;
+        margin: 0;
+        letter-spacing: -0.1px;
+    }
+
+    #testimonial_slider .carousel-indicators {
+        display: none;
+    }
+
+    #testimonial_slider .carousel-control-next,
+    #testimonial_slider .carousel-control-prev {
+        background: #1d1d1d;
+        color: #fff;
+        font-size: 35px;
+        font-weight: 900;
+        width: 50%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #testimonial_slider .carousel-control-next {
+        left: 5px;
+        top: 40px;
+    }
+
+    #testimonial_slider .carousel-control-prev {
+        left: -5px;
+        top: 40px;
+    }
+
+    #footer {
+        margin-top: 0;
+        padding-top: 70px;
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2::after {
+        display: none;
+    }
+
+    .layout_padding {
+        padding-top: 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    h2.stylis_heading_style1 .letters {
+        top: -120px;
+    }
+
+    #left_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    /** home page 2 **/
+
+}
+
+@media (max-width:992px) {
+    .mt_mobile1 {
+        margin-top: 90px;
+    }
+
+    .cross_icon {
+        width: 105px;
+        height: 105px;
+    }
+
+    #header {
+        background: #252525 !important
+    }
+
+    /* banner section */
+    .banner_section h3 {
+        font-size: 3rem;
+    }
+
+    /* team page */
+    .team_page .team_main_row {
+        flex-direction: column-reverse;
+    }
+
+    .team_page .team_detail_box {
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+
+    /* contact page */
+    .contact_page .contact_btn_box {
+        margin-bottom: 45px;
+    }
+
+    .contact_page .contact_heading_box {
+        margin-top: 0;
+    }
+
+    /* error page */
+    .error_section .detail-box h2 {
+        font-size: 2rem;
+    }
+
+    /* product detail page */
+    .product_detail_section .detail_box {
+        margin-top: 35px;
+    }
+
+    /* checkout section */
+    .checkout_section .shopping_cart {
+        margin-top: 45px;
+
+    }
+
+    /* cart section */
+    .cart_section .cart_table .cart_table_content {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    .cart_section .cart_table table {
+        width: 900px;
+
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .mt_mobile_75 {
+        margin-top: 75px;
+    }
+
+    .mt_mobile_45 {
+        margin-top: 45px;
+    }
+
+    .mobile_flex_column_reverse {
+        flex-direction: column-reverse;
+    }
+
+    .container-fluid {
+        padding: 0 30px;
+    }
+
+    .header_info {
+        margin-top: -57px;
+    }
+
+    .header_info ul li.cta {
+        margin-left: 20px;
+        float: right;
+    }
+
+    #logo_img {
+        height: 45px;
+    }
+
+    #slider_main.slide img {
+        max-height: auto;
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2 {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        bottom: 0;
+        z-index: 14;
+        color: #fff;
+        line-height: normal;
+        right: 0;
+        font-size: 55px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        line-height: 80px;
+        background: #0b8511;
+        text-shadow: 3px 3px 0 #043307;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3);
+    }
+
+    h2.stylis_heading_style1 {
+        font-size: 20vw;
+        color: #fff;
+        letter-spacing: 0;
+        text-align: center;
+        text-shadow: 5px 0 10px rgba(0, 0, 0, .7);
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        right: inherit;
+        left: 0;
+        width: 100%;
+        bottom: 168px;
+        top: inherit;
+    }
+
+    #left_section {
+        background-image: url('../image/shape_2.png');
+        min-height: 1850px;
+        background-size: 100% 100%;
+        margin-top: 0;
+        position: relative;
+        z-index: 12;
+        padding: 295px 0;
+    }
+
+    #top_section::after {
+        display: none;
+    }
+
+    .slider_arrow span {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .slider_arrow {
+        left: 0;
+        top: inherit;
+        height: 70px;
+        bottom: 170px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin: 0 5px;
+    }
+
+    #left_section {
+        background-image: none;
+        min-height: auto;
+        margin-top: 0;
+        position: relative;
+        padding: 65px 0;
+        position: relative;
+    }
+
+    #left_section::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color:
+            #065f0a;
+    }
+
+    #left_section:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #0f9b16;
+    }
+
+    #left_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    #left_section p {
+        padding: 0;
+    }
+
+    .white_text h1,
+    .white_text h2,
+    .white_text h3,
+    .white_text h4,
+    .white_text h5,
+    .white_text h6,
+    .white_text p,
+    .white_text span,
+    .white_text strong {
+        color: #222;
+    }
+
+        h3.heading_small {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 38px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+        p {
+        font-size: 17px;
+        color: #1a1a1a;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0 0 25px 0;
+    }
+
+    .about_part img {
+        border-radius: 0;
+        margin-top: 45px;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+
+    #left_section .container-fluid {
+        position: relative;
+        z-index: 1;
+    }
+
+    #right_section .container-fluid {
+        position: relative;
+        z-index: 1;
+    }
+
+    #right_section {
+        background-image: none;
+        min-height: auto;
+        margin-top: 0;
+        position: relative;
+        padding: 65px 0;
+        position: relative;
+    }
+
+    #right_section .col-md-8+.col-md-4 {
+        order: -1;
+    }
+
+    #right_section p {
+        padding: 0;
+    }
+
+    #right_section::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #065f0a;
+    }
+
+    #right_section::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #0f9b16;
+    }
+
+    #left_section.why_choose {
+        margin-top: 0;
+    }
+
+    .plants_blog img {
+        width: auto;
+    }
+
+    #right_section img.grass_icon_bottom {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 50px;
+    }
+
+    h4.large {
+        font-size: 26px;
+    }
+
+    p.small {
+        font-size: 15px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+
+    #left_section.call_back {
+        margin-top: 0;
+        min-height: auto;
+    }
+
+    #right_section .col-md-6+.col-md-4 {
+        order: -1;
+    }
+
+    #right_section div.team_blog+h4+p {
+        padding: 0 0 !important;
+        font-size: 18px;
+    }
+
+    .top_100 {
+        position: relative;
+        top: 0;
+    }
+
+    .team_blog img {
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    #right_section div.team_blog+h4+p {
+        padding: 0 0 !important;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .banner_section::after {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color:
+            #111;
+        opacity: 0.6;
+        background-image: none;
+        top: 0;
+    }
+
+    .banner_section {
+        margin-bottom: 30px;
+    }
+
+    .slider_arrow {
+        display: none;
+    }
+
+    .plants_blog {
+        text-align: center;
+    }
+
+    .black_bt {
+        margin: 10px 5px;
+    }
+
+    #right_section.testimonial {
+        margin-top: 0;
+        min-height: auto;
+        padding-bottom: 125px;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+
+    #testimonial_slider {
+        background: #fff;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+        min-height: 670px;
+        float: left;
+        padding: 15px;
+        width: 94%;
+        margin: 40px 3% 0;
+    }
+
+    .img-box {
+        margin-bottom: 10px;
+    }
+
+    p.testimonial span.client_name {
+        margin: 25px 0 5px 0;
+    }
+
+    p.testimonial {
+        color: #0a0909;
+        font-size: 17px;
+        text-align: left;
+        line-height: 28px;
+        margin: 0;
+        letter-spacing: -0.1px;
+    }
+
+    #testimonial_slider .carousel-indicators {
+        display: none;
+    }
+
+    #testimonial_slider .carousel-control-next,
+    #testimonial_slider .carousel-control-prev {
+        background: #1d1d1d;
+        color: #fff;
+        font-size: 35px;
+        font-weight: 900;
+        width: 50%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #testimonial_slider .carousel-control-next {
+        left: 5px;
+        top: 40px;
+    }
+
+    #testimonial_slider .carousel-control-prev {
+        left: -5px;
+        top: 40px;
+    }
+
+    #footer {
+        margin-top: 0;
+        padding-top: 70px;
+        min-height: auto;
+    }
+
+    h3.stylis_heading_style2::after {
+        display: none;
+    }
+
+    .layout_padding {
+        padding-top: 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    h2.stylis_heading_style1 .letters {
+        top: -120px;
+    }
+
+    /** home page 2 **/
+
+    /* team page */
+    .team_page .team_detail_box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* testimonial page */
+    .testimonial_page .testimonial_main_row {
+        flex-direction: column-reverse;
+    }
+
+    .testimonial_page #testimonial_slider {
+        margin-bottom: 25px;
+    }
+
+    .testimonial_page .testimonial_heading_box {
+        margin-left: 0;
+    }
+
+    /* blog detail page */
+    .form_top_field,
+    .form_bottom_field {
+        padding-left: 35px;
+
+    }
+
+    /* cart section */
+    .cart_section .cart_option_box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+
+    .cart_info_box {
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    /* error page */
+    .error_section .detail-box h2 {
+        margin-top: 45px;
+    }
+    
+    #right_section.our_team p, #right_section.testimonial p {
+        padding: 0;
+    }
+    .container {
+        max-width: 1170px;
+        width: 100%;
+    }
+    .home_page2 .slide_cont h3 {
+        font-size: 28px;
+    }
+    #header {
+        margin-bottom: 0;
+    }
+    .logo {
+        text-align: left;
+    }
+    .home_page2 h3.heading_small {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    section .container {
+        position: relative;
+        z-index: 1;
+        background: #fff;
+    }
+
+}
+
+
+
+@media (max-width: 575px) {
+    #slider_main.slide img {
+        margin-top: 90px;
+    }
+
+    #top_section h2.stylis_heading_style1 {
+        bottom: 45%;
+    }
+
+    h2.stylis_heading_style1 .letters {
+        top: -50px;
+    }
+
+    /* banner section */
+    .banner_section h3 {
+        font-size: 2.5rem;
+    }
+
+    /* product detail page */
+    .product_dcn_container .review_user_box {
+        flex-direction: column;
+    }
+
+    .product_dcn_container .review_user_box .detail-box {
+        margin-top: 15px;
+    }
+
+    /* cart section */
+    .cart_section .cart_option_box .cart_form .coupon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart_section .coupon .input-text {
+        margin-bottom: 5px;
+    }
+
+    .cart_info_box a {
+        padding: 0 15px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .product_dcn_container .review_user_box .top_detail-box {
+        flex-wrap: wrap;
+    }
+
+    .product_dcn_container .review_user_box .top_detail-box h5 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .product_dcn_container .review_user_box .top_detail-box .rating {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="static/js/echarts.js"></script>
+    <script src="static/js/flexible.js"></script>
+  </head>
+  <body>
+    <body>
+      <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+      <div
+        id="main"
+        style="height: 800px; background-color: rgb(255, 255, 255)"
+      ></div>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8" />
+          <title>ECharts</title>
+
+          <!-- 引入刚刚下载的 ECharts 文件 -->
+          <script src="static/echarts.js"></script>
+        </head>
+        <body>
+          <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+          <div id="main" style="height: 700px"></div>
+          <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById("main"));
+
+            // 指定图表的配置项和数据  从这开始！！！！
+            const colors = ["#5470C6", "#91CC75", "#EE6666"];
+            option = {
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'cross',
+      crossStyle: {
+        color: '#999'
+      }
+    }
+  },
+  toolbox: {
+    feature: {
+      dataView: { show: true, readOnly: false },
+      magicType: { show: true, type: ['line', 'bar'] },
+      restore: { show: true },
+      saveAsImage: { show: true }
+    }
+  },
+  legend: {
+    data: ['全球二氧化碳排放量（百万吨）', '增速']
+  },
+  xAxis: [
+    {
+      type: 'category',
+      data:  ['2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+      axisPointer: {
+        type: 'shadow'
+      }
+    }
+  ],
+  yAxis: [
+    {
+      type: 'value',
+      name: '全球二氧化碳排放量（百万吨）',
+      min:31000,
+      max:34500,
+      interval: 500,
+      axisLabel: {
+        formatter: '{value} ml'
+      }
+    },
+    {
+      type: 'value',
+      name: '增速',
+      min: -0.08,
+      max: 0.08,
+      interval: 0.02,
+      axisLabel: {
+        formatter: '{value} °C'
+      }
+    }
+  ],
+  series: [
+    {
+      name: '全球二氧化碳排放量（百万吨）',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + ' 百万吨';
+        }
+      },
+      data: [
+      32837.4, 33020.6, 33426.4, 34148.5, 34095.8, 32078.5, 33884.1
+      ]
+    },
+   
+    {
+      name: '增速',
+      type: 'line',
+      yAxisIndex: 1,
+      tooltip: {
+        valueFormatter: function (value) {
+          return value ;
+        }
+      },
+      data: [0, 0.006, 0.012, 0.022, -0.002, -0.059, 0.056]
+    }
+  ]
+};
+
+
+
+
+            // 使用刚指定的配置项和数据显示图表。结束！！！！
+            myChart.setOption(option);
+          </script>
+        </body>
+      </html>
+    </body>
+  </body>
+</html>

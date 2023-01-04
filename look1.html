@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="static/js/echarts.js"></script>
+    <script src="static/js/flexible.js"></script>
+  </head>
+  <body>
+    <body>
+      <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+      <div
+        id="main"
+        style="height: 800px; background-color: rgb(255, 255, 255)"
+      ></div>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8" />
+          <title>ECharts</title>
+
+          <!-- 引入刚刚下载的 ECharts 文件 -->
+          <script src="static/echarts.js"></script>
+        </head>
+        <body>
+          <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+          <div id="main" style="height: 700px"></div>
+          <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById("main"));
+
+            // 指定图表的配置项和数据  从这开始！！！！
+            const colors = ["#5470C6", "#91CC75", "#EE6666"];
+            option = {
+              title: {
+                text: "中国碳排放量及其占全球碳排放量比重走势",
+                subtext: "2010年-2021年",
+              },
+              legend: {
+                show: true,
+                top: "bottom",
+                data: ["Range", "Average"],
+              },
+              grid: {
+                top: 100,
+              },
+              color: colors,
+              tooltip: {
+                trigger: "axis",
+                axisPointer: {
+                  type: "cross",
+                },
+              },
+              grid: {
+                right: "10%",
+              },
+              grid: {
+                top: "20%",
+              },
+              toolbox: {
+                feature: {
+                  dataView: { show: true, readOnly: false },
+                  restore: { show: true },
+                  saveAsImage: { show: true },
+                },
+              },
+              legend: {
+                data: ["碳排放量", "全球碳排放占比"],
+              },
+              xAxis: [
+                {
+                  type: "category",
+                  axisTick: {
+                    alignWithLabel: true,
+                  },
+                  // prettier-ignore
+                  data: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+                },
+              ],
+              yAxis: [
+                {
+                  type: "value",
+                  name: "碳排放量",
+                  position: "right",
+                  alignTicks: true,
+                  axisLine: {
+                    show: true,
+                    lineStyle: {
+                      color: colors[0],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: "{value}亿吨",
+                  },
+                },
+                {
+                  type: "value",
+
+                  alignTicks: true,
+                  offset: 0,
+                  axisLine: {
+                    show: true,
+                    lineStyle: {},
+                  },
+                  axisLabel: {
+                    formatter: "{value} ml",
+                  },
+                },
+                {
+                  type: "value",
+                  name: "全球碳排放占比",
+                  position: "left",
+                  alignTicks: true,
+                  axisLine: {
+                    show: true,
+                    lineStyle: {
+                      color: colors[1],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: "{value}%",
+                  },
+                },
+              ],
+              series: [
+                {
+                  name: "碳排放量",
+                  type: "bar",
+                  data: [
+                    85.07, 91.97, 93.65, 96.13, 96.64, 96.52, 96.56, 98.58,
+                    100.43, 101.9, 102.43, 103.27,
+                  ],
+                },
+
+                {
+                  name: "全球碳排放占比",
+                  type: "line",
+                  yAxisIndex: 2,
+                  data: [
+                    27.19, 28.59, 28.81, 29.07, 29.16, 29.06, 28.84, 29.23,
+                    29.24, 29.66, 29.21, 30,
+                  ],
+                },
+              ],
+            };
+            // 使用刚指定的配置项和数据显示图表。结束！！！！
+            myChart.setOption(option);
+          </script>
+        </body>
+      </html>
+    </body>
+  </body>
+</html>

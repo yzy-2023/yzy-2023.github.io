@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>t</title>
+    <!-- 引入刚刚js文件 -->
+    <script src="static/js/echarts.min.js"></script>
+  </head>
+
+  <body>
+    <!--准备盒子 -->
+    <div id="main" style="width: 1920px; height: 900px"></div>
+
+    <script type="text/javascript">
+      // 基于准备好的dom，初始化echarts实例
+      var myChart = echarts.init(document.getElementById("main"));
+
+      // 指定图表的配置项和数据
+
+      option = {
+  title: [
+    {
+      text: '2016-2021年我国碳成交额'
+      
+    }
+  ],
+  polar: {
+    radius: [30, '70%']
+  },
+  angleAxis: {
+    max: 15,
+    startAngle: 65
+  },
+  radiusAxis: {
+    type: 'category',
+    data: ['2016', '2017', '2018', '2019','2020','2021']
+  },
+  tooltip: {},
+  series: {
+    type: 'bar',
+    data: [7.93, 7.68, 7.59, 9.49, 12.67,1.2 ],
+    coordinateSystem: 'polar',
+    label: {
+      show: true,
+      position: 'middle',
+      formatter: '{b}: {c}'
+    }
+  }
+};
+
+      // 使用刚指定的配置项和数据显示图表。
+      myChart.setOption(option);
+    </script>
+  </body>
+</html>

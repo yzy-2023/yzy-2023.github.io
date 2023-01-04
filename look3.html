@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>3</title>
+    <!-- 引入刚刚js文件 -->
+    <script src="static/js/echarts.min.js"></script>
+  </head>
+  <body>
+          <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+          <div id="main" style="height: 700px"></div>
+          <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById("main"));
+
+            // 指定图表的配置项和数据  从这开始！！！！
+            const colors = ["#5470C6", "#91CC75", "#EE6666"];
+            option = {
+              title: {
+              text: "",
+              top: 80,
+              left: "center",
+            },
+              tooltip: {
+                trigger: "item",
+              },
+              legend: {
+                top: "5%",
+                left: "center",
+              },
+              series: [
+                {
+                  name: "二氧化碳排放量（亿吨）",
+                  type: "pie",
+                  radius: ["40%", "70%"],
+                  avoidLabelOverlap: false,
+                  label: {
+                    show: false,
+                    position: "center",
+                  },
+                  emphasis: {
+                    label: {
+                      show: true,
+                      fontSize: 40,
+                      fontWeight: "bold",
+                    },
+                  },
+                  labelLine: {
+                    show: false,
+                  },
+                  data: [
+                    { value: 51.63, name: "工业" },
+                    { value: 36.66, name: "电力" },
+                    { value: 9.08, name: "移动源" },
+                    { value: 6.4, name: "民用" },
+                    { value: 0, name: "溶剂使用" },
+                  ],
+                },
+              ],
+            };
+
+            // 使用刚指定的配置项和数据显示图表。结束！！！！
+            myChart.setOption(option);
+          </script>
+        </body>
+      </html>
+    </body>
+  </body>
+</html>

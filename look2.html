@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>2</title>
+    <!-- 引入刚刚js文件 -->
+    <script src="static/js/echarts.min.js"></script>
+  </head>
+
+  <body>
+    <!--准备盒子 -->
+    <div id="main" style="width: 1920px; height: 900px"></div>
+
+    <script type="text/javascript">
+      // 基于准备好的dom，初始化echarts实例
+
+      var chartDom = document.getElementById("main");
+      var myChart = echarts.init(chartDom);
+      var option;
+
+      option = {
+        xAxis: {
+          type: "category",
+          data: [" ", "2021", " ", "2030", " ", " ", " "],
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            data: [32, 38, 42, 44, 40, 30, 15],
+            type: "line",
+            symbol: "triangle",
+            symbolSize: 20,
+            lineStyle: {
+              color: "#5470C6",
+              width: 4,
+              type: "dashed",
+            },
+            itemStyle: {
+              borderWidth: 3,
+              borderColor: "yellow",
+              color: "green",
+            },
+          },
+        ],
+      };
+
+      myChart.setOption(option);
+    </script>
+  </body>
+</html>
